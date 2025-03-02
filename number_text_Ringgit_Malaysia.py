@@ -61,9 +61,9 @@ class nombor_melayu:
             sen_str = str(num).split('.')[-1].ljust(2, '0')[:2]  # Ambil 2 digit tanpa pembundaran
             sen = int(sen_str)
             if sen > 0:
-                return f"{nombor_melayu.number_to_text(whole)} Ringgit dan {nombor_melayu.number_to_text(sen)} Sen Sahaja".strip()
+                return f"Ringgit Malaysia {nombor_melayu.number_to_text(whole)} dan {nombor_melayu.number_to_text(sen)} sen sahaja".strip()
             else:
-                return f"{nombor_melayu.number_to_text(whole)} Ringgit Sahaja".strip()
+                return f"Ringgit Malaysia {nombor_melayu.number_to_text(whole)} sahaja".strip()
 
         num_str = str(num)
         if '.' in num_str:
