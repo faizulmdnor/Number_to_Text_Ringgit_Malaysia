@@ -12,4 +12,4 @@ try:
     print(ringgit_text.upper())
 
 except ValueError:
-    print("Nilai yang dimasukkan tidak sah. Sila masukkan nombor sahaja.")
+    print("Nilai yang dimasukkan tidak sah atau format yang salah.\nSila masukkan nombor dalam format matawang sahaja.\nContoh: 123.30 atau 123.00 atau 0.01")
